@@ -2,9 +2,11 @@
 
 # dependencies
 /node_modules
+bower_components
 
 # testing
 /coverage
+.coverage
 
 # production
 /build
@@ -19,3 +21,13 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+.idea/
+*.sqlite3
+*.sql
+*.db
+ve/
+build/
+dist/
+*.swo
+
